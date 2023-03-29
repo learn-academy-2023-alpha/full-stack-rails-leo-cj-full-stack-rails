@@ -57,13 +57,14 @@ Branch: blog-new
 
 Acceptance Criteria
 
-Has a controller action for new
-Has a route for new
-Has a view for new
-Can navigate from the landing page to the view of the new page
-Can see a form for title and content
-Can see a submit button
-Can navigate back from the new page to the landing page
+Has a controller action for new-
+Has a route for new-
+Has a view for new-
+Can navigate from the landing page to the view of the new page-
+Can see a form for title and content-
+Can see a submit button-
+Can navigate back from the new page to the landing page-
+
 Story 4: In order to interact with the blog post application, as a user of the application, I need to create a new blog post.
 
 Branch: blog-create
