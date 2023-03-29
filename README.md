@@ -44,12 +44,13 @@ Branch: blog-show
 
 Acceptance Criteria
 
-Has a controller action for show
-Has a route for show
-Has a view for show
-Can navigate from the list of all blog post titles to the view of any given blog post
-Can see all the title and content for one blog post on a page
-Can navigate back from the show page to the landing page
+Has a controller action for show-
+Has a route for show-
+Has a view for show-
+Can navigate from the list of all blog post titles to the view of any given blog post-
+Can see all the title and content for one blog post on a page-
+Can navigate back from the show page to the landing page-
+
 Story 3: In order to interact with the blog post application, as a user of the application, I need to see a form where I can fill out information for a new blog post.
 
 Branch: blog-new
