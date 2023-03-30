@@ -86,9 +86,7 @@ button:hover{
     flex-direction: column;
     justify-content: space-evenly;
 }
-/* .text-field{
 
-} */
 .form-label {
     border: 2px solid black;
     max-width: 75px;
@@ -97,6 +95,3 @@ button:hover{
     padding: 2px;
 
 }
-/* .submit-button{
-
-} */
