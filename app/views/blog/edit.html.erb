@@ -1,12 +1,15 @@
-<h2>Edit your Blog</h2>
+<div>
+  <h2>Edit your Blog</h2>
 
-<%= form_with model: @blog do |form| %>
-    <%= form.label :title %>
-    <%= form.text_field :title %>
-    <%= form.label :content %>
-    <%= form.text_field :content %>
-    <%= form.submit "Submit blog changes" %>
-  <% end %>
-
-  <p><%= link_to 'Home Page', blogs_path %></p>
-  <p><%= link_to 'Blog Page', blog_path %></p>
+  <div class="edit-content"
+  <%= form_with model: @blog do |form| %>
+      <div class="form-label"><%= form.label :title %></div>
+      <div class="text-field"><%= form.text_field :title %></div>
+      <div class="form-label"><%= form.label :content %></div>
+      <div class="text-field"><%= form.text_field :content %></div>
+      <div class="submit-button"><%= form.submit "Submit blog changes" %></div>
+    <% end %>
+  </div>
+    <p><%= link_to 'Home Page', blogs_path %></p>
+    <p><%= link_to 'Blog Page', blog_path %></p>
+</div>

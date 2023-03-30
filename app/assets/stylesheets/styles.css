@@ -1,0 +1,102 @@
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+body {
+    background-image: linear-gradient(-45deg, #d8dbe2, #a9bcd0, #58a4b0,#373f51, #daa49a);
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
+    min-height: 100vh;
+}
+a {
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #daa49a;
+    color: #000;
+    border-radius: 5px 15px 5px 15px;
+    box-shadow: 5px 5px #2f2f2f;
+}
+a:hover{
+    color: #daa49a;
+    background-color: #000;
+}
+.show-page {
+    text-align: center;
+    align-items: center;
+    margin:auto;
+}
+.blog-content{
+    border: 2px solid black;
+    border-radius: 5px 25px 5px 25px;
+    box-shadow: 5px 5px #2f2f2f;
+    background-color: antiquewhite;
+    padding: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.page-controls{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+button {
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #daa49a;
+    color: #000;
+    appearance: none;
+    font-size: 16px;
+    border-radius: 5px 15px 5px 15px;
+    box-shadow: 5px 5px #2f2f2f;
+}
+button:hover{
+    color: #daa49a;
+    background-color: #000;
+    
+}
+.blog-list {
+    display: flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.blogs {
+    font-style: italic;
+    font-size: 25px;
+    
+}
+.edit-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+/* .text-field{
+
+} */
+.form-label {
+    border: 2px solid black;
+    max-width: 75px;
+    text-align: center;
+    background-color: #d8dbe2;
+    padding: 2px;
+
+}
+/* .submit-button{
+
+} */

@@ -1,9 +1,12 @@
-<h1> Blogs </h1>
+<div>
+    <h1> Check Out These Blogs! </h1>
 
-<ul>
-    <% @blogs.each do |blog| %>
-        <li><%= link_to blog.title, blog_path(blog.id) %></li>
-    <% end %>
-</ul>
-
+    <div class="blog-list">
+        <% @blogs.each do |blog| %>
+            <p class="blogs"><%= link_to blog.title, blog_path(blog.id) %></p>
+        <% end %>
+</div>
+</br>
+</br>
 <p> <%= link_to 'Add a New Blog', new_blog_path %></p>
+</div>

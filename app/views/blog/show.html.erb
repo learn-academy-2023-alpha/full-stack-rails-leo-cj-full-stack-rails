@@ -1,11 +1,13 @@
-<h3><%= @blog.title %></h3>
+<div class="show-page">
 
-<p><%= @blog.content %></p>
+<h2><%= @blog.title %></h2>
 
-<p><%= link_to 'Home Page', blogs_path %></p>
-
-<p><%= link_to 'Update Blog', edit_blog_path %> </p>
-
-<p><%= button_to 'Delete Blog', delete_blog_path, method: :delete %> </p>
-
-
+    <div class="blog-content">
+        <p><%= @blog.content %></p>
+    </div>
+    <div class="page-controls">
+        <p><%= link_to 'Home Page', blogs_path %></p>
+        <p><%= link_to 'Update Blog', edit_blog_path %> </p>
+        <%= button_to 'Delete Blog', delete_blog_path, method: :delete %>
+    </div>
+</div>
