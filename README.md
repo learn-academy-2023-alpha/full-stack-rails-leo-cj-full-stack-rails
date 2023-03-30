@@ -89,7 +89,6 @@ Can see a button on the show page to delete the blog post-
 Can click on the button to perform a delete action-
 Can be rerouted to the landing page when a blog post is deleted-
 
-
 Story 6: In order to interact with the blog post application, as a user of the application, I need to see a form where I can fill out information to edit an existing blog post.
 
 Branch: blog-edit
@@ -121,10 +120,11 @@ Branch: blog-validations
 
 Acceptance Criteria
 
-Ensure all blog posts have titles and content for each post (non-nil, non-blank values)
-Ensure all blog post titles are unique
-Ensure that blog post titles are at least 4 characters
-Ensure that blog post content is at least 10 characters
+Ensure all blog posts have titles and content for each post (non-nil, non-blank values)-
+Ensure all blog post titles are unique-
+Ensure that blog post titles are at least 4 characters-
+Ensure that blog post content is at least 10 characters-
+
 Story 9: In order to enjoy the blog post application, as a user of the application, I need to see pleasant styling.
 
 Branch: blog-styles
