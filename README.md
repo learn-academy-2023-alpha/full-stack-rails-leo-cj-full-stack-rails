@@ -110,10 +110,11 @@ Branch: blog-update
 
 Acceptance Criteria
 
-Has a controller action for update
-Has a route for update
-Can fill out a form to edit an existing blog post and click on a submit button that will trigger an update action
-Can be rerouted to the landing page when a valid blog post is updated
+Has a controller action for update-
+Has a route for update-
+Can fill out a form to edit an existing blog post and click on a submit button that will trigger an update action-
+Can be rerouted to the landing page when a valid blog post is updated-
+
 Story 8: In order to create a secure blog post application, as a developer of the application, I need to ensure only valid data is entered into the database.
 
 Branch: blog-validations
