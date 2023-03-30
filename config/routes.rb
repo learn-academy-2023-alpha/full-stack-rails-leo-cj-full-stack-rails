@@ -5,5 +5,6 @@ Rails.application.routes.draw do
   get '/blogs/:id/edit' => 'blog#edit', as: 'edit_blog'
   post '/blogs' => 'blog#create'
   delete '/blogs/:id' => 'blog#destroy', as: 'delete_blog'
+  patch '/blogs/:id' => 'blog#update' 
 
 end
